@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="infinityGrad" x1="60" y1="120" x2="452" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="45%" stop-color="#0EA5E9"/>
+      <stop offset="70%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="warmGrad" x1="256" y1="200" x2="380" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="scalePanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284c7" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Dark Navy Brand Circle Base or Transparent -->
+  <rect width="512" height="512" rx="108" fill="#0F233D"/>
+
+  <!-- Central Pillar of Justice -->
+  <path d="M256 68 V320" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <!-- Top Finial / Acorn -->
+  <circle cx="256" cy="62" r="14" fill="#FFFFFF"/>
+  <path d="M256 42 L256 50" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Infinity Loop (Neurodiversity) forming the Scale Beam -->
+  <!-- Left loop curves through (140, 160) to center (256, 210), right loop to (372, 160) -->
+  <path d="M 256 215 
+           C 200 135, 90 120, 90 205
+           C 90 270, 195 285, 256 215
+           C 317 145, 422 140, 422 205
+           C 422 280, 312 295, 256 215 Z" 
+        stroke="url(#infinityGrad)" 
+        stroke-width="26" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        fill="none"
+        filter="url(#softGlow)"/>
+
+  <!-- Left Scale Pan & Strings -->
+  <line x1="140" y1="172" x2="110" y2="242" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="140" y1="172" x2="170" y2="242" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="102" y1="242" x2="178" y2="242" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 104 242 C 108 266, 172 266, 176 242 Z" fill="#0284C7" stroke="#38BDF8" stroke-width="3"/>
+
+  <!-- Right Scale Pan & Strings -->
+  <line x1="372" y1="172" x2="342" y2="242" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="372" y1="172" x2="402" y2="242" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="334" y1="242" x2="410" y2="242" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 336 242 C 340 266, 404 266, 408 242 Z" fill="#F59E0B" stroke="#FDE047" stroke-width="3"/>
+
+  <!-- Jigsaw Puzzle Piece at Heart / Center Base -->
+  <g transform="translate(230, 260) scale(0.9)">
+    <path d="M 10 10 
+             H 28 C 28 3, 36 3, 36 10 H 54
+             V 28 C 61 28, 61 36, 54 36 V 54
+             H 36 C 36 61, 28 61, 28 54 H 10
+             V 36 C 17 36, 17 28, 10 28 Z" 
+          fill="#14B8A6" stroke="#2DD4BF" stroke-width="3"/>
+  </g>
+
+  <!-- Supportive Cradling Hands at the Base -->
+  <!-- Left hand -->
+  <path d="M 125 365 
+           C 155 350, 190 375, 230 405 
+           C 245 415, 252 425, 256 428
+           C 246 430, 230 435, 210 435
+           C 170 435, 130 405, 115 375 Z" 
+        fill="#FFFFFF"/>
+  <path d="M 112 375 
+           C 135 340, 175 330, 215 348
+           C 180 340, 145 352, 125 385 Z" 
+        fill="#E2E8F0"/>
+
+  <!-- Right hand -->
+  <path d="M 387 365 
+           C 357 350, 322 375, 282 405 
+           C 267 415, 260 425, 256 428
+           C 266 430, 282 435, 302 435
+           C 342 435, 382 405, 397 375 Z" 
+        fill="#FFFFFF"/>
+  <path d="M 400 375 
+           C 377 340, 337 330, 297 348
+           C 332 340, 367 352, 387 385 Z" 
+        fill="#E2E8F0"/>
+</svg>

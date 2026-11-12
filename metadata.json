@@ -1,0 +1,11 @@
+{
+  "name": "GuiaLegal TEA - Autodefesa e Gestão de Direitos",
+  "description": "Plataforma digital de utilidade pública para autodefesa jurídica, cálculo de BPC/LOAS, auditoria de planos de saúde, passaporte sensorial e gestão de direitos para famílias atípicas e pessoas com TEA.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
