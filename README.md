@@ -8,6 +8,12 @@ Aceda à aplicação em direto: **[guialegal-tea.onrender.com](https://guialegal
 
 ---
 
+## 🎥 Demonstração em Vídeo
+Assista à apresentação oficial e demonstração prática do **GuiaLegal TEA**:
+👉 **[Ver Vídeo no YouTube](https://youtu.be/23NtWYRjN64)**[cite: 6]
+
+---
+
 ## 🚀 Sobre o Projeto
 O **GuiaLegal TEA** é uma aplicação web progressiva (PWA) desenvolvida para auxiliar famílias atípicas, pessoas autistas e profissionais na defesa de direitos, organização de dossiês jurídicos, simulações previdenciárias e comunicação rápida em situações de crise ou deslocação urbana.
 
